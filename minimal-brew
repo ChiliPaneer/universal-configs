@@ -1,0 +1,25 @@
+tap "homebrew/bundle"
+tap "homebrew/services"
+
+
+brew "ffmpeg"
+brew "fnm"
+brew "fzf"
+brew "pdfgrep"
+brew "pyenv"
+brew "tree"
+brew "wget"
+brew "zsh-syntax-highlighting"
+
+
+cask "alt-tab"
+cask "telegram"
+cask "zoom"
+cask "google-chrome"
+cask "karabiner-elements"
+cask "notion"
+cask "rectangle"
+cask "visual-studio-code"
+cask "postman"
+cask "spotify"
+cask "jetbrains-toolbox"
