@@ -4,5 +4,8 @@ https://catonmat.net/vim-plugins-matchit-vim
 Add ssh keys to github
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=cli
 
+The one dark theme
+https://github.com/benniemosher/the-one-theme
+
 
 

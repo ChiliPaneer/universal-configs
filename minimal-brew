@@ -2,14 +2,13 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 
 
-brew "ffmpeg"
+# brew "ffmpeg"
 brew "fnm"
 brew "fzf"
 brew "pdfgrep"
 brew "pyenv"
 brew "tree"
 brew "wget"
-brew "zsh-syntax-highlighting"
 
 
 cask "alt-tab"
