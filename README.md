@@ -7,3 +7,6 @@
 3. Install the brewfile
 `brew bundle install`
 
+4. Omz
+`sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
+    set .zshrc from here
