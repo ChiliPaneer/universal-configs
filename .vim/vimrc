@@ -1,0 +1,60 @@
+set nocompatible
+filetype plugin indent on
+
+" plugins "
+packloadall
+
+"themeing stuffs"
+set t_Co=256
+packadd! dracula
+packadd! onedark.vim
+colorscheme onedark
+
+" Code Formatting "
+let g:python3_host_prog="/usr/bin/python3"
+
+" settings #################################################
+
+
+" tabbing and shifting
+set tabstop=4
+set expandtab
+set softtabstop=4
+set shiftwidth=4
+set smarttab
+set shiftround
+set autoindent
+
+" text rendering options
+set encoding=utf-8
+set scrolloff=1
+syntax on
+        
+" navigation stuff
+set number
+set relativenumber
+set cursorline
+set ruler
+set mouse=a
+
+" searching
+set showmatch "highlights matching brackets
+set incsearch "highlights results while typing
+set hlsearch "highlights reults
+set wildmenu
+set ignorecase
+set smartcase "switches to case-sensitive searching when an uppercase letter is entered
+
+" folding
+set foldmethod=indent
+set foldnestmax=3
+set foldcolumn=2
+set foldlevel=2
+set showcmd
+runtime macros/matchit.vim
+
+
+" key maps
+inoremap jk <Esc>
+
+
